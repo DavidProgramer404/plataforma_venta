@@ -1,0 +1,383 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #f5f3f3
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+header {
+    padding: 20px 0 0 0;
+    background: white;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+    header {
+        text-align: left;
+    }
+}
+
+.borrar-curso {
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+#hero {
+    background-image: url(../img/hero.jpg);
+    height: 350px;
+    background-size: cover;
+}
+
+#encabezado {
+    margin: 30px 0;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+
+    top: 100%;
+    z-index: 1;
+    background-color: white;
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+}
+
+.vacio {
+    padding: 10px;
+    background-color: crimson;
+    text-align: center;
+    border-radius: 10px;
+    color: white;
+}
+
+.contenido-hero {
+    margin-top: 80px;
+    color: white;
+}
+
+.contenido-hero form {
+    position: relative;
+    margin-bottom: 0;
+}
+
+.contenido-hero form #buscador {
+    height: 50px;
+    margin-bottom: 0;
+}
+
+.contenido-hero form .submit-buscador {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0;
+    display: block;
+    text-indent: -9999px;
+    width: 50px;
+    background-image: url(../img/lupa.png);
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: none;
+}
+
+
+.barra {
+    padding: 20px 0;
+    background: #333;
+    /* Gris oscuro */
+    background: -moz-linear-gradient(left, #333 0%, #000 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #333 0%, #000 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #333 0%, #000 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#333', endColorstr='#000', GradientType=1);
+    /* IE6-9 */
+    color: #fff;
+    /* Texto blanco */
+}
+
+
+.barra p {
+    margin: 0;
+    color: white;
+}
+
+.icono {
+    background-repeat: no-repeat;
+    background-position: left center;
+    padding-left: 60px;
+    background-size: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+@media (min-width: 750px) {
+    .icono {
+        margin-bottom: 0;
+    }
+}
+
+.icono1 {
+    background-image: url(../img/icono1.png);
+}
+
+.icono2 {
+    background-image: url(../img/icono2.png);
+}
+
+.icono3 {
+    background-image: url(../img/icono3.png);
+}
+
+#lista-cursos .row {
+    margin-bottom: 20px;
+}
+
+.agregar-carrito {
+    margin: 10px 0;
+}
+
+.card {
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    background: white;
+}
+
+@media (min-width: 550px) {
+    .card {
+        text-align: left;
+    }
+}
+
+.info-card {
+    padding: 10px 20px;
+}
+
+.info-card p,
+.card h4 {
+    margin-bottom: 5px;
+}
+
+.info-card .precio {
+    text-decoration: line-through;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.info-card .precio span {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.footer {
+    margin-top: 40px;
+    border-top: 1px solid #aaa;
+    ;
+    padding-top: 40px;
+}
+
+.footer .menu a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+#logo {
+
+    width: auto;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+
+/* Estilos para el pie de página */
+#footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 100px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+.social-links a:hover {
+    color: #c5a110;
+}
+
+
+
+
+
+
+
+@keyframes slide {
+	0% { transform: translateX(0); }
+	10% { transform: translateX(0); }
+
+	15% { transform: translateX(-100%); }
+	30% { transform: translateX(-100%); }
+
+	35% { transform: translateX(-200%); }
+	50% { transform: translateX(-200%); }
+
+	55% { transform: translateX(-300%); }
+	70% { transform: translateX(-300%); }
+
+	75% { transform: translateX(-400%); }
+	90% { transform: translateX(-400%); }
+
+	95% { transform: translateX(-500%); }
+	100% { transform: translateX(-500%); }
+}
+
+* { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+	font-family: sans-serif;
+}
+
+.wrapper {
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.slider {
+	position: relative;
+}
+
+.slides {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+}
+
+.slide {
+	width: 100vw;
+	flex-shrink: 0;
+	animation-name: slide;
+	animation-duration: 20s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+.slides:hover .slide {
+	animation-play-state: paused;
+}
+
+.slide img {
+	width: 100%;
+	vertical-align: top;
+}
+
+.slide a {
+	width: 100%;
+	display: inline-block;
+	position: relative;
+}
+
+.caption {
+	color: white;
+	text-shadow: 1px 1px black;
+	font-size: 8vw;
+	position: absolute;
+	bottom: 8vw;
+	right: 4vw;
+}
+
+.slide:target {
+	animation-name: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 50;
+}
+
+.slider-controler {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 100;
+}
+
+.slider-controler li {
+	margin: 0 0.5rem;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.slider-controler a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5rem;
+}
+
+@media only screen and (min-width: 1200px) {
+	.slide {
+		width: 1200px;
+	}
+
+	.caption {
+		font-size: 96px;
+		bottom: 96px;
+		right: 50px;
+	}
+}
+  /* Estilos para las imágenes del slider */
+.slide img {
+    width: 200px; /* Establece el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de aspecto */
+}
+
+
