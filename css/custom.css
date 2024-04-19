@@ -118,10 +118,13 @@ ul {
 
 #hero {
     background-image: url(../img/Black\ White\ Bold\ Fashion\ Product\ Promotion\ Landscape\ Banner.png);
-    height: 700px;
+    height: 100vh; /* Utiliza el 100% del alto de la pantalla */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
+
+
 
 #encabezado {
     margin: 30px 0;
