@@ -19,18 +19,31 @@
 </head>
 <body>
 
-<header id="header" class="header">
-    <div class="container">
-        <div class="row">
-            <div class="four columns">
-                <img src="/img/LogoReclus.png" id="logo">
-            </div>
-            <div class="two columns u-pull-right">
-                <ul>
-                    <li class="submenu">
-                            <img src="img/cart.png" id="img-carrito">
-                            <div id="carrito">
-                                    
+    <nav class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <!-- Logo y Navegación -->
+                    <div class="logo-nav-wrapper">
+                        <div class="logo">
+                            <img src="/img/LogoReclus.png" id="logo">
+                        </div>
+                        <nav>
+                            <ul class="nav">
+                                <li><a href="/index.html">Inicio</a></li>
+                                <li><a href="/somos.html">Quiénes somos</a></li>
+                                <li><a href="/somos.html">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="twelve columns">
+                    <!-- Imagen del carrito -->
+                    <div class="cart">
+                        <ul>
+                            <li class="submenu">
+                                <img src="img/cart.png" id="img-carrito">
+                                <div id="carrito">
                                     <table id="lista-carrito" class="u-full-width">
                                         <thead>
                                             <tr>
@@ -43,31 +56,31 @@
                                         </thead>
                                         <tbody></tbody>
                                     </table>
-
                                     <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
-                            </div>
-                    </li>
-                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div> 
-    </div>
-</header>
+        </div>
+    </nav>
 
 <div class="contenido-quienes-somos">
     <div class="container">
         <div class="row">
             <div class="six columns">
-                <h2>Quiénes Somos</h2>
+                <h3>Quiénes Somos</h3>
                 <p>Somos una tienda en línea comprometida con ofrecer productos de alta calidad y satisfacer las necesidades de nuestros clientes.</p>
-                <h2>Nuestra Misión</h2>
+                <h3>Nuestra Misión</h3>
                 <p>Nuestra misión es proporcionar una experiencia de compra en línea excepcional, ofreciendo una amplia variedad de productos y un excelente servicio al cliente.</p>
-                <h2>Nuestra Visión</h2>
+                <h3>Nuestra Visión</h3>
                 <p>Queremos ser reconocidos como la mejor opción para compras en línea, siendo líderes en innovación, calidad y atención al cliente.</p>
-                <h2>Nuestros Valores</h2>
+                <h3>Nuestros Valores</h3>
                 <p>Nos regimos por la integridad, la calidad, la honestidad y el compromiso con la satisfacción del cliente en cada transacción.</p>
-                <h2>Nuestro Equipo</h2>
+                <h3>Nuestro Equipo</h3>
                 <p>Contamos con un equipo dedicado y apasionado que trabaja incansablemente para ofrecer la mejor experiencia de compra en línea a nuestros clientes.</p>
-                <h2>Contáctenos</h2>
+                <h3>Contáctenos</h3>
                 <p>Si tienes alguna pregunta o sugerencia, no dudes en contactarnos. Estamos aquí para ayudarte.</p>
             </div>
         </div>
@@ -87,7 +100,7 @@
             </div>
             <div class="four columns">
                 <nav id="secundaria" class="menu">
-                    <a class="enlace" href="#">CONTACTO</a>
+                    <a class="enlace" href="/somos.html">CONTACTO</a>
                     <a class="enlace" href="/politicas.html">POLITICAS</a>
                 </nav>
             </div>

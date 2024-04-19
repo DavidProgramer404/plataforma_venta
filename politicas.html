@@ -9,28 +9,40 @@
     <link rel="stylesheet" href="css/skeleton.css">
     <link rel="stylesheet" href="css/custom.css">
 
-    
     <!-- Boxicons -->
     <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
 
 
     <!-- Fontawesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-</head>
+
 <body>
 
-<header id="header" class="header">
-    <div class="container">
-        <div class="row">
-            <div class="four columns">
-                <img src="/img/LogoReclus.png"  id="logo">
-            </div>
-            <div class="two columns u-pull-right">
-                <ul>
-                    <li class="submenu">
-                            <img src="img/cart.png" id="img-carrito">
-                            <div id="carrito">
-                                    
+    <nav class="navbar">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                    <!-- Logo y Navegación -->
+                    <div class="logo-nav-wrapper">
+                        <div class="logo">
+                            <img src="/img/LogoReclus.png" id="logo">
+                        </div>
+                        <nav>
+                            <ul class="nav">
+                                <li><a href="/index.html">Inicio</a></li>
+                                <li><a href="/somos.html">Quiénes somos</a></li>
+                                <li><a href="/somos.html">Contacto</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="twelve columns">
+                    <!-- Imagen del carrito -->
+                    <div class="cart">
+                        <ul>
+                            <li class="submenu">
+                                <img src="img/cart.png" id="img-carrito">
+                                <div id="carrito">
                                     <table id="lista-carrito" class="u-full-width">
                                         <thead>
                                             <tr>
@@ -43,30 +55,30 @@
                                         </thead>
                                         <tbody></tbody>
                                     </table>
-
                                     <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
-                            </div>
-                    </li>
-                </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div> 
-    </div>
-</header>
+        </div>
+    </nav>
 
 <div class="contenido-politicas">
-    <div class="container">
+    <div class="container text-center">
         <div class="row">
             <div class="six columns">
                 <h1>Políticas de la Tienda</h1>
-                <h2>Política de Devolución</h2>
+                <h3>Política de Devolución</h3>
                 <p>Aceptamos devoluciones hasta 30 días después de la compra. Los artículos deben estar en su condición original y con el recibo de compra.</p>
                 <h3>Política de Privacidad</h3>
                 <p>Respetamos tu privacidad y no compartiremos tus datos personales con terceros. Toda la información proporcionada se utilizará únicamente para procesar tus pedidos.</p>
-                <h4>Política de Envío</h4>
+                <h3>Política de Envío</h3>
                 <p>Ofrecemos envío gratuito en pedidos superiores a $50. El tiempo de entrega varía según la ubicación y puede demorar entre 3 y 7 días hábiles.</p>
-                <h5>Política de Garantía</h5>
+                <h3>Política de Garantía</h3>
                 <p>Garantizamos la calidad de nuestros productos. Si encuentras algún defecto de fabricación, contáctanos y te proporcionaremos un reemplazo o reembolso.</p>
-                <h6>Política de Seguridad</h6>
+                <h3>Política de Seguridad</h3>
                 <p>Nuestra tienda en línea utiliza tecnología segura para proteger tus datos durante la transmisión. Puedes realizar tus compras con confianza.</p>
             </div>
         </div>
@@ -86,7 +98,7 @@
             </div>
             <div class="four columns">
                 <nav id="secundaria" class="menu">
-                    <a class="enlace" href="#">CONTACTO</a>
+                    <a class="enlace" href="/somos.html">CONTACTO</a>
                     <a class="enlace" href="/politicas.html">POLITICAS</a>
                 </nav>
             </div>
